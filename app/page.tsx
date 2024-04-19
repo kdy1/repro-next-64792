@@ -1,4 +1,7 @@
-/** Add your relevant code here for the issue to reproduce */
 export default function Home() {
-  return null;
+  return <div>
+    <h1>Home</h1>
+    <a href="/nodejs">Node</a>
+    <a href="/edge">Edge</a>
+  </div>
 }
