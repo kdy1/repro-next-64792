@@ -6,6 +6,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^0.9.1",
+    "@prisma/adapter-neon": "^5.12.1",
+    "@prisma/client": "^5.12.1",
     "next": "canary",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -13,6 +16,7 @@
   "devDependencies": {
     "@types/node": "20.4.5",
     "@types/react": "18.2.18",
+    "prisma": "^5.12.1",
     "typescript": "5.1.3"
   }
 }
