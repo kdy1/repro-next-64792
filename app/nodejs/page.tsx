@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { BookList } from "../post-list";
+import { BookList } from "../book-list";
 
 export default function Node() {
   return <div>
